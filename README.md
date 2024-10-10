@@ -13,14 +13,13 @@ Support Vector Machine (SVM) is used in this project for classification tasks. T
 
 - **Hard Margin**: This approach assumes data is linearly separable and tries to find a hyperplane that perfectly divides the classes without any error. It’s less flexible and is effective when classes are well-separated.
 - **Soft Margin**: This variation allows some points to be on the wrong side of the hyperplane, introducing a penalty parameter (C) that controls the trade-off between maximizing the margin and minimizing classification error. This makes it more suitable for noisy data or overlapping classes.
-
+- I trained these models on datasets that are generated using the DrawData library.
 ### Advantages
 - Performs well on high-dimensional data and works with both linear and non-linear data.
   
 ### Disadvantages
 - Requires parameter tuning and is computationally expensive for large datasets&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}.
 
-- I trained these models on datasets that are generated using the DrawData library.
 ---
 
 ## Decision Tree
@@ -29,14 +28,13 @@ The Decision Tree algorithm in this project is implemented for classification ta
 
 - **Gini Impurity**: Measures the frequency of a random sample being incorrectly classified.
 - **Entropy**: Measures the disorder or impurity; lower entropy indicates a more orderly distribution.
-
+- I trained this model on lung cancer dataset.
 ### Advantages
 - Simple to interpret and visualize with minimal preprocessing requirements.
   
 ### Disadvantages
 - Prone to overfitting and sensitive to noisy data&#8203;:contentReference[oaicite:2]{index=2}.
-
-- I trained this model on lung cancer dataset.  
+  
 ---
 
 ## Neural Network, Random Forest and Kmeans
@@ -45,29 +43,26 @@ This project includes both **Neural Network**, **Random Forest**,**Kmeans** mode
 
 ### Neural Network
 The Neural Network model is used for handling complex, non-linear relationships. It consists of interconnected layers where each neuron is connected to neurons in the next layer. This model is particularly well-suited for tasks involving unstructured data, like images or text.
-
+-I trained this model on heart dataset.
 - **Advantages**: Suitable for complex tasks and able to model non-linear relationships.
   
 - **Disadvantages**: Computationally expensive, requires significant tuning, and may overfit on small datasets.
 
--I trained this model on heart dataset.
 ### Random Forest
 Random Forest is an ensemble method that combines multiple decision trees. Each tree is trained on a different subset of data and features, reducing overfitting and improving accuracy. The final prediction is an average (for regression) or a majority vote (for classification) of all trees in the forest.
-
+- I trained this model on Dataset_1.
 - **Advantages**: Reduces overfitting, handles large datasets well, and provides feature importance scores.
   
 - **Disadvantages**: Less interpretable than a single decision tree and requires more computational resources&#8203;:contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}.
 
-- I trained this model on Dataset_1.
 ### K-Means Clustering
 
 K-Means is an unsupervised learning algorithm used for clustering data into groups. The algorithm works by defining `k` centroids and then assigning each data point to the nearest centroid, iteratively refining the positions of the centroids until the assignments no longer change. The goal is to minimize the variance within clusters.
-
+- I trained this model on heart dataset.
 - **Advantages**: Simple and easy to implement, Efficient for large datasets.
 
 - **Disadvantages**: Requires pre-specifying the number of clusters (k), Sensitive to initial placement of centroids, which can affect result, Struggles with clusters of varying sizes and densities.
-
-- I trained this model on heart dataset.
+- 
 ---
 
 ## Conclusion
