@@ -20,6 +20,7 @@ Support Vector Machine (SVM) is used in this project for classification tasks. T
 ### Disadvantages
 - Requires parameter tuning and is computationally expensive for large datasets&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}.
 
+- I trained these models on datasets that are generated using the DrawData library.
 ---
 
 ## Decision Tree
@@ -35,6 +36,7 @@ The Decision Tree algorithm in this project is implemented for classification ta
 ### Disadvantages
 - Prone to overfitting and sensitive to noisy data&#8203;:contentReference[oaicite:2]{index=2}.
 
+- I trained this model on lung cancer dataset.  
 ---
 
 ## Neural Network, Random Forest and Kmeans
@@ -48,6 +50,7 @@ The Neural Network model is used for handling complex, non-linear relationships.
   
 - **Disadvantages**: Computationally expensive, requires significant tuning, and may overfit on small datasets.
 
+-I trained this model on heart dataset.
 ### Random Forest
 Random Forest is an ensemble method that combines multiple decision trees. Each tree is trained on a different subset of data and features, reducing overfitting and improving accuracy. The final prediction is an average (for regression) or a majority vote (for classification) of all trees in the forest.
 
@@ -55,6 +58,7 @@ Random Forest is an ensemble method that combines multiple decision trees. Each 
   
 - **Disadvantages**: Less interpretable than a single decision tree and requires more computational resources&#8203;:contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}.
 
+- I trained this model on Dataset_1.
 ### K-Means Clustering
 
 K-Means is an unsupervised learning algorithm used for clustering data into groups. The algorithm works by defining `k` centroids and then assigning each data point to the nearest centroid, iteratively refining the positions of the centroids until the assignments no longer change. The goal is to minimize the variance within clusters.
@@ -62,6 +66,8 @@ K-Means is an unsupervised learning algorithm used for clustering data into grou
 - **Advantages**: Simple and easy to implement, Efficient for large datasets.
 
 - **Disadvantages**: Requires pre-specifying the number of clusters (k), Sensitive to initial placement of centroids, which can affect result, Struggles with clusters of varying sizes and densities.
+
+- I trained this model on heart dataset.
 ---
 
 ## Conclusion
