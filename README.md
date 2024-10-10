@@ -55,7 +55,7 @@ Random Forest is an ensemble method that combines multiple decision trees. Each 
   
 - **Disadvantages**: Less interpretable than a single decision tree and requires more computational resources&#8203;:contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}.
 
-## K-Means Clustering
+### K-Means Clustering
 
 K-Means is an unsupervised learning algorithm used for clustering data into groups. The algorithm works by defining `k` centroids and then assigning each data point to the nearest centroid, iteratively refining the positions of the centroids until the assignments no longer change. The goal is to minimize the variance within clusters.
 
