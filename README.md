@@ -1,4 +1,4 @@
-# Machine Learning Project
+# Machine Learning Classification Methods
 
 ## Table of Contents
 1. [Support Vector Machine (SVM)](#support-vector-machine-svm)
