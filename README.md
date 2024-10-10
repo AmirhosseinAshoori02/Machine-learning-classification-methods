@@ -39,7 +39,7 @@ The Decision Tree algorithm in this project is implemented for classification ta
 
 ## Neural Network, Random Forest and Kmeans
 
-This project includes both **Neural Network**, **Random Forest**,**Kmeans** models:
+This section includes **Neural Network**, **Random Forest**,**Kmeans** models:
 
 ### Neural Network
 The Neural Network model is used for handling complex, non-linear relationships. It consists of interconnected layers where each neuron is connected to neurons in the next layer. This model is particularly well-suited for tasks involving unstructured data, like images or text.
