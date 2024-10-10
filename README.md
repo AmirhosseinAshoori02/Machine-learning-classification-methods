@@ -62,7 +62,7 @@ K-Means is an unsupervised learning algorithm used for clustering data into grou
 - **Advantages**: Simple and easy to implement, Efficient for large datasets.
 
 - **Disadvantages**: Requires pre-specifying the number of clusters (k), Sensitive to initial placement of centroids, which can affect result, Struggles with clusters of varying sizes and densities.
-- 
+
 ---
 
 ## Conclusion
