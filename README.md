@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Support Vector Machine (SVM)](#support-vector-machine-svm)
 2. [Decision Tree](#decision-tree)
-3. [Neural Network & Random Forest](#neural-network--random-forest)
+3. [Neural Network, Random Forest and Kmeans](#neural-network--random-forest--Kmeans)
 
 ---
 
@@ -37,9 +37,9 @@ The Decision Tree algorithm in this project is implemented for classification ta
 
 ---
 
-## Neural Network & Random Forest
+## Neural Network, Random Forest and Kmeans
 
-This project includes both **Neural Network** and **Random Forest** models:
+This project includes both **Neural Network**, **Random Forest**,**Kmeans** models:
 
 ### Neural Network
 The Neural Network model is used for handling complex, non-linear relationships. It consists of interconnected layers where each neuron is connected to neurons in the next layer. This model is particularly well-suited for tasks involving unstructured data, like images or text.
@@ -55,6 +55,13 @@ Random Forest is an ensemble method that combines multiple decision trees. Each 
   
 - **Disadvantages**: Less interpretable than a single decision tree and requires more computational resources&#8203;:contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}.
 
+## K-Means Clustering
+
+K-Means is an unsupervised learning algorithm used for clustering data into groups. The algorithm works by defining `k` centroids and then assigning each data point to the nearest centroid, iteratively refining the positions of the centroids until the assignments no longer change. The goal is to minimize the variance within clusters.
+
+- **Advantages**: Simple and easy to implement, Efficient for large datasets.
+
+- **Disadvantages**: Requires pre-specifying the number of clusters (k), Sensitive to initial placement of centroids, which can affect result, Struggles with clusters of varying sizes and densities.
 ---
 
 ## Conclusion
